@@ -1,0 +1,222 @@
+header {
+ background: #FFFFFF;
+ padding: 10px 0;
+ margin: 0;
+}
+
+.Box {
+    position: relative;
+    width: 95%;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+nav {
+    position: absolute;
+    top: 30px;
+    right: 0px;
+
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    color: #808080;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #141313c7;
+    font-size: 25px;
+}
+
+nav a:active {
+    color: #000000;
+}
+
+main {
+    background: #000000d8;
+}
+
+.Emphasis {
+   position:relative;
+   padding: 20px;
+	
+}
+
+h2 {
+    color: #FFFFFF;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* vi um tutorial */
+
+.Slider {
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.Slides {
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+
+.Slides input {
+    display: none;
+}
+
+.slide {
+    width: 25%;
+    position: relative;
+    transition: 2s;
+}
+
+.slide img {
+    width: 800px;
+}
+
+.manual-navigation {
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn {
+    border: 2px solid #FFFFFF;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.manual-btn:hover {
+    background-color: #FFFFFF;
+}
+
+#radio1:checked ~ .first {
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first {
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .first {
+    margin-left: -75%;
+}
+
+.Navigation-auto div {
+    border: 2px solid #20a6ff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.Navigation-auto {
+    position: absolute;
+    width: 800px;
+    margin-top: 360px;
+    display: flex;
+    justify-content: center;
+}
+
+.Navigation-auto div:not(:last-child) {
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .Navigation-auto .auto-btn1 {
+    background-color: #FFFFFF;
+}
+
+#radio2:checked ~ .Navigation-auto .auto-btn2 {
+    background-color: #FFFFFF;
+}
+
+#radio3:checked ~ .Navigation-auto .auto-btn3 {
+    background-color: #FFFFFF;
+}
+
+#radio4:checked ~ .Navigation-auto .auto-btn4 {
+    background-color: #FFFFFF;
+}
+
+/* Cabo o tutorial */
+
+.GameStore {
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+}
+
+.Games {
+    width: 1240px;
+	padding: 10px;
+    text-align: center;
+}
+
+.Games li {
+    display: block;
+	width: 60%;
+	margin: 100px 2%;
+	box-sizing: border-box;
+	border: 4px solid #000000;
+	border-radius: 10px;
+}
+
+h3 {
+    font-size: 30px;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+
+.GameListImg {
+    width: 100%;
+    display: inline-block;
+}
+
+
+footer {
+    background: #FFFFFF;
+}
+
+.Copyright {
+    color: #000000;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Página de contato */
+
