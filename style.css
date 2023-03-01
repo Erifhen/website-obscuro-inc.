@@ -1,49 +1,52 @@
-header {
+/*Cores do site: Ideia -> DarK ludic cottage, pastel gotic e neubrutalism */
+.bg-primary-color {
  background: #FFFFFF;
  padding: 10px 0;
  margin: 0;
 }
 
-.Box {
-    position: relative;
-    width: 95%;
+.bg-secondary-color {
+    background: #353535;
+    padding: 10px 0;
     margin: 0;
-    padding: 20px;
 }
 
+.primary-color {
+color: aliceblue;
+}
+
+/* Titulo/Logo do site: Ideia -> uma especie de frutiger aero bar */
 h1 {
     font-size: 30px;
     font-weight: bolder;
 }
 
-nav {
-    position: absolute;
-    top: 30px;
-    right: 0px;
+/*Coisas do Navbar*/
+#navbar {
+border-bottom: #353535;
 
 }
 
-nav li {
-    display: inline;
-    margin: 0 0 0 15px;
-}
-
-nav a {
-    color: #808080;
-    font-weight: bold;
-    font-size: 22px;
-    text-decoration: none;
-}
-
-nav a:hover {
-    color: #141313f5;
+#navbar a:hover {
+    color: #757575f5;
     font-size: 25px;
 }
 
-nav a:active {
-    color: #000000;
+#navbar a:active {
+  border-bottom: 1px solid #000000;
 }
 
+.navbar-brand {
+    display: flex;
+}
+
+#navbar-items .navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Resto do site */
 main {
     background: #000000d8;
 }
@@ -217,8 +220,10 @@ h4 {
     font-size: 25px;
     color: #FFFFFF;
     font-weight: bolder;
-    margin: 10px 20px;
+    margin: 8px 20px;
     text-align: left;
+    line-height: 1.2;
+    
 }
 
 p {
@@ -254,8 +259,13 @@ p {
     border: 2px solid #FFFFFF;
 }
 
+main {
+    padding-bottom: 80px;
+}
+
 footer {
     background: #FFFFFF;
+  
 }
 
 .Copyright {

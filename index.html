@@ -3,27 +3,42 @@
     <head>
         <meta charset="uTF-8">
         <title>Obscuro Inc.</title>
+        <!---Preciso adicionar aqui uma fonte bolada do google estilo neubrutal-->
+
+        <!--CSS do Bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+       
+        <!---meu CSS-->
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
+        <!--JavaScript do Bootstrap-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     </head>
 
     <body>
         <header>
-            <div class="Box">
-                <h1>Obscuro inc.</h1>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Jogos</a></li>
-                        <li><a href="books.html">Livros</a></li>
-                        <li><a href="aboutus.html">Contato</a></li>
-                    </ul>
-                </nav>
+            <div class="logo bg-primary-color">
+                <h1>Obscuro Inc.</h1>
             </div>
+            <nav class="navbar navbar-expand-lg bg-secondary-color" id="navbar">
+                <div class="container-fluid">
+                    <ul class="navbar-nav">
+                        <li class="navbar-item"><a href="index.html" class="nav-link primary-color">Inicio</a></li>
+                        <li class="navbar-item"><a href="books.html" class="nav-link primary-color">Livros</a></li>
+                        <li class="navbar-item"><a href="games.html" class="nav-link primary-color">Jogos</a></li>
+                        <li class="navbar-item"><a href="aboutus.html" class="nav-link primary-color">Contato</a></li>
+                    </ul>
+                  </div>
+            </nav>
+            
         </header>
-
+       
         <main>
+            
 
             <div class="Emphasis">
+
+                <h2>Novidades!</h2>
 
                 <div class="Slider">
                     
@@ -71,50 +86,30 @@
     
             </div>
 
-            <h2> Lista de jogos</h2>
-
-            <div class="Store">
-                <ul class="Items">
-                    <li>
-                        <div class="Card">
-                            <div class="InsideBox1">
-                         <img class="GameListImg" src="thumbnail03.png">
-                             </div>
-                          <div class="InsideBox2">
-                            <h3>Nome Foda</h3>
-                            <h4>Categoria: x x x x x </h4>
-                            <p> Descrição do jogo ou lore etc.</p>
-                            <a class="ButtonDownload" href="">Em breve</a>
-                          </div>
-                         </div>
-                    </li>
-                    <li>
-                        <div class="Card">
-                            <div class="InsideBox1">
-                         <img class="GameListImg" src="thumbnail03.png">
-                             </div>
-                          <div class="InsideBox2">
-                            <h3>Nome Foda</h3>
-                            <h4>Categoria: x x x x x </h4>
-                            <p> Descrição do jogo ou lore etc.</p>
-                            <a class="ButtonDownload" href="">Em breve</a>
-                          </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="Card">
-                            <div class="InsideBox1">
-                         <img class="GameListImg" src="thumbnail03.png">
-                             </div>
-                          <div class="InsideBox2">
-                            <h3>Nome Foda</h3>
-                            <h4>Categoria: x x x x x </h4>
-                            <p> Descrição do jogo ou lore etc.</p>
-                            <a class="ButtonDownload" href="">Em breve</a>
-                          </div>
-                        </div>
-                    </li> 
-                </ul>
+        
+            <div class="History">
+                <h2>Sobre nós e nossos conceitos</h2>
+                <h4> Não somos uma empresa capitalista! A Obscuro Inc. é uma experiência diferente, utilizando conceitos
+                anarquistas como pilares fundamentais, nossa pretenção é mostrar que com organização popular e democracia
+                podemos construir coisas incríveis! Somos a lança e o escudo da Ordem Obscura.</h4>
+                <h3>conceitos explicados</h3>
+                <h4>* Democracia *</h4>
+                <h4> A opinião de todos os envolvidos é levada em conta nos desenvolvimentos de projetos,
+                    então ouvimos a voz dos investidores e consumidores com o mesmo peso. Você pode entrar em contato
+                    diretamente conosco e participar de nossas enquetes nas redes sociais.</h4>
+                <h4>* Liberdade *</h4>
+                <h4> Acreditamos que experiências diferentes enriquecem nossos projetos, por isso todos os 
+                    nossos projetos são Open-source, com uma ideia baseada na licença GPL; temos um vídeo explicando
+                    melhor esse conceito. Link:</h4>
+                <h4>* Acessibilidade *</h4>
+                <h4> Todos os nossos produtos são gratuitos e o mais inclusivo possível. Infelizmente
+                só isso não garante o acesso a todes por conta dos problemas estruturais da sociedade em que vivemos, mas no
+                momento é o que podemos fazer.</h4>
+                <h4>* Atemporalidade *</h4>
+                <h4> Nossos projetos estão em metamorfose constante, por isso consideramos muito 
+                ideias e opiniões diversas para suas transformações ao longo dos processos de produção, então nem sempre
+                estarão concluídos, mas estarão disponíveis para serem acessados mesmo assim. Verifique a etiqueta que informa
+                o estágio atual de desenvolvimento do projeto específico.</h4>
             </div>
 
         </main>
