@@ -16,9 +16,46 @@ color: aliceblue;
 }
 
 /* Titulo/Logo do site: Ideia -> uma especie de frutiger aero bar */
+p {
+    text-indent: 2em;
+    font-size: 25px;
+    color: #FFFFFF;
+    font-weight: bolder;
+    margin: 8px 20px;
+    text-align: left;
+    line-height: 1.2;
+}
+
 h1 {
     font-size: 30px;
     font-weight: bolder;
+}
+
+h2 {
+    color: #FFFFFF;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 60px;
+    margin: 30px;
+}
+
+h3 {
+    font-size: 25px;
+    color: #FFFFFF;
+    font-weight: bolder;
+    margin: 10px 20px;
+    text-align: left;
+}
+
+h4 {
+   
+    font-size: 30px;
+    color: #FFFFFF;
+    font-weight: bolder;
+    margin: 8px 20px;
+    text-align: center;
+    line-height: 1.2;
+    
 }
 
 /*Coisas do Navbar*/
@@ -200,38 +237,6 @@ main {
     padding: 0px 50px;
 }
 
-h2 {
-    color: #FFFFFF;
-    font-weight: bolder;
-    text-align: center;
-    font-size: 60px;
-    margin: 30px;
-}
-
-h3 {
-    font-size: 30px;
-    color: #FFFFFF;
-    font-weight: bolder;
-    margin: 10px 20px;
-    text-align: left;
-}
-
-h4 {
-    font-size: 25px;
-    color: #FFFFFF;
-    font-weight: bolder;
-    margin: 8px 20px;
-    text-align: left;
-    line-height: 1.2;
-    
-}
-
-p {
-    color: #FFFFFF;
-    font-size: 20px;
-    margin: 10px 20px 140px 20px;
-    text-align: left;
-}
 
 .ButtonDownload {
     display: block;

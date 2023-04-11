@@ -1,121 +1,192 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="uTF-8">
-        <title>Obscuro Inc.</title>
-        <!---Preciso adicionar aqui uma fonte bolada do google estilo neubrutal-->
 
-        <!--CSS do Bootstrap-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-       
-        <!---meu CSS-->
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="style.css">
-        <!--JavaScript do Bootstrap-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    </head>
+<head>
+    <meta charset="uTF-8">
+    <title>Obscuro Inc.</title>
+    <!---Preciso adicionar aqui uma fonte bolada do google estilo neubrutal-->
 
-    <body>
-        <header>
-            <div class="logo bg-primary-color">
-                <h1>Obscuro Inc.</h1>
+    <!--CSS do Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!---meu CSS-->
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <!--JavaScript do Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo bg-primary-color">
+            <h1>Obscuro Inc.</h1>
+        </div>
+        <nav class="navbar navbar-expand-lg bg-secondary-color" id="navbar">
+            <div class="container-fluid">
+                <ul class="navbar-nav">
+                    <li class="navbar-item"><a href="index.html" class="nav-link primary-color">Inicio</a></li>
+                    <li class="navbar-item"><a href="books.html" class="nav-link primary-color">Projetos</a></li>
+                    <li class="navbar-item"><a href="aboutus.html" class="nav-link primary-color">Social</a></li>
+                </ul>
             </div>
-            <nav class="navbar navbar-expand-lg bg-secondary-color" id="navbar">
-                <div class="container-fluid">
-                    <ul class="navbar-nav">
-                        <li class="navbar-item"><a href="index.html" class="nav-link primary-color">Inicio</a></li>
-                        <li class="navbar-item"><a href="books.html" class="nav-link primary-color">Livros</a></li>
-                        <li class="navbar-item"><a href="games.html" class="nav-link primary-color">Jogos</a></li>
-                        <li class="navbar-item"><a href="aboutus.html" class="nav-link primary-color">Contato</a></li>
-                    </ul>
-                  </div>
-            </nav>
-            
-        </header>
-       
-        <main>
-            
+        </nav>
 
-            <div class="Emphasis">
+    </header>
 
-                <h2>Novidades!</h2>
+    <main>
 
-                <div class="Slider">
-                    
-                    <div class="Slides">
-                        <!---Radio botões-->
-                        <input type="radio" name="radio-btn" id="radio1">
-                        <input type="radio" name="radio-btn" id="radio2">
-                        <input type="radio" name="radio-btn" id="radio3">
-                        <input type="radio" name="radio-btn" id="radio4">
-                        <!---Radio botões-->
 
-                        <!---Imagem dos slides-->
-                        <div class="slide first">
-                            <img src="thumbnail07.png" alt="image1">
-                        </div>
-                        <div class="slide">
-                            <img src="thumbnail06.png" alt="image2">
-                        </div>
-                        <div class="slide">
-                            <img src="thumbnail05.png" alt="image3">
-                        </div>
-                        <div class="slide">
-                            <img src="thumbnail13.png" alt="image4">
-                        </div>
-                        <!---Imagem dos slides-->
+        <div class="Emphasis">
 
-                        <!---Navegação auto-->
-                        <div class="Navigation-auto">
-                            <div class="auto-btn1"></div>
-                            <div class="auto-btn2"></div>
-                            <div class="auto-btn3"></div>
-                            <div class="auto-btn4"></div>
-                        </div>
-                        <!---Navegação auto-->
+            <h2>Novidades!</h2>
+
+            <div class="Slider">
+
+                <div class="Slides">
+                    <!---Radio botões-->
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+                    <!---Radio botões-->
+
+                    <!---Imagem dos slides-->
+                    <div class="slide first">
+                        <img src="thumbnail07.png" alt="image1">
                     </div>
-
-                    <div class="manual-navigation">
-                        <label for="radio1" class="manual-btn"></label>
-                        <label for="radio2" class="manual-btn"></label>
-                        <label for="radio3" class="manual-btn"></label>
-                        <label for="radio4" class="manual-btn"></label>
+                    <div class="slide">
+                        <img src="thumbnail06.png" alt="image2">
                     </div>
+                    <div class="slide">
+                        <img src="thumbnail05.png" alt="image3">
+                    </div>
+                    <div class="slide">
+                        <img src="thumbnail13.png" alt="image4">
+                    </div>
+                    <!---Imagem dos slides-->
 
+                    <!---Navegação auto-->
+                    <div class="Navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                    </div>
+                    <!---Navegação auto-->
                 </div>
-    
+
+                <div class="manual-navigation">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+
             </div>
 
-        
-            <div class="History">
-                <h2>Sobre nós e nossos conceitos</h2>
-                <h4> Não somos uma empresa capitalista! A Obscuro Inc. é uma experiência diferente, utilizando conceitos
-                anarquistas como pilares fundamentais, nossa pretenção é mostrar que com organização popular e democracia
-                podemos construir coisas incríveis! Somos a lança e o escudo da Ordem Obscura.</h4>
-                <h3>conceitos explicados</h3>
-                <h4>* Democracia *</h4>
-                <h4> A opinião de todos os envolvidos é levada em conta nos desenvolvimentos de projetos,
-                    então ouvimos a voz dos investidores e consumidores com o mesmo peso. Você pode entrar em contato
-                    diretamente conosco e participar de nossas enquetes nas redes sociais.</h4>
-                <h4>* Liberdade *</h4>
-                <h4> Acreditamos que experiências diferentes enriquecem nossos projetos, por isso todos os 
-                    nossos projetos são Open-source, com uma ideia baseada na licença GPL; temos um vídeo explicando
-                    melhor esse conceito. Link:</h4>
-                <h4>* Acessibilidade *</h4>
-                <h4> Todos os nossos produtos são gratuitos e o mais inclusivo possível. Infelizmente
-                só isso não garante o acesso a todes por conta dos problemas estruturais da sociedade em que vivemos, mas no
-                momento é o que podemos fazer.</h4>
-                <h4>* Atemporalidade *</h4>
-                <h4> Nossos projetos estão em metamorfose constante, por isso consideramos muito 
-                ideias e opiniões diversas para suas transformações ao longo dos processos de produção, então nem sempre
-                estarão concluídos, mas estarão disponíveis para serem acessados mesmo assim. Verifique a etiqueta que informa
-                o estágio atual de desenvolvimento do projeto específico.</h4>
-            </div>
+        </div>
 
-        </main>
-        <footer>
-            <p class="Copyright">&copy; Obscuro inc. - 2022</p>
-        </footer>
-        <script src="script.js"></script>
-    </body>
+
+        <div class="History">
+            <h2>Sobre nós e nossos conceitos</h2>
+
+            <p>Nós, da Obscuro Inc., não seguimos os princípios capitalistas. Ao contrário, nossos pilares fundamentais
+                são baseados em conceitos anarquistas, nos quais a organização popular e a democracia são as principais
+                ferramentas para a construção de coisas incríveis.
+            <p>
+            <p>Como uma empresa comprometida com a Ordem Obscura, nos posicionamos como a lança e o escudo dessa causa.
+            </p>
+
+            <h4>* Democracia *</h4>
+            <p>Nós acreditamos em um modelo de negócios baseado na democracia. Na Obscuro Inc., acreditamos que a
+                opinião de todos os envolvidos deve ser levada em consideração nos processos de desenvolvimento de
+                projetos. Por isso, damos peso igual às vozes de investidores e consumidores, ouvindo o feedback de
+                ambos com a mesma importância.</p>
+
+            <p>Além disso, incentivamos a participação ativa de todos os nossos stakeholders, permitindo que eles entrem
+                em contato diretamente conosco e participem de nossas enquetes nas redes sociais. Queremos que a nossa
+                comunidade seja parte integrante da construção dos nossos projetos, e estamos sempre em busca de novas
+                formas de nos conectarmos e colaborarmos com ela.</p>
+
+            <p>Acreditamos que essa abordagem democrática não apenas leva a melhores resultados e produtos, mas também
+                fortalece nossa relação com nossos investidores e consumidores, promovendo a transparência e a confiança
+                mútua. É por isso que estamos comprometidos em manter essa abordagem em todos os aspectos do nosso
+                negócio, e em continuar ouvindo e envolvendo nossos stakeholders em todas as etapas do processo.</p>
+
+            <h4>* Liberdade *</h4>
+            <p> Acreditamos que a liberdade é um valor essencial em nossos projetos e produtos. É por isso que todos os
+                nossos produtos são disponibilizados gratuitamente, seguindo a abordagem Open-source e licenças livres
+                que adotamos.
+            <p>
+
+            <p>Essa abordagem garante a acessibilidade e a democratização do conhecimento, permitindo que mais pessoas
+                possam ter acesso às nossas soluções e contribuir para seu desenvolvimento e aprimoramento. Além disso,
+                ela também nos permite trabalhar de forma mais eficiente, evitando duplicação de esforços e promovendo a
+                reutilização de códigos e recursos já existentes.</p>
+
+            <p>Nossa escolha de disponibilizar nossos produtos gratuitamente não significa que não valorizamos o
+                trabalho que realizamos. Pelo contrário, acreditamos que, ao compartilhar nossos produtos com a
+                comunidade, estamos contribuindo para um mundo mais justo e igualitário, permitindo que mais pessoas
+                tenham acesso a soluções tecnológicas de qualidade.
+            <p>
+
+            <p>Em resumo, estamos comprometidos em manter nossos produtos gratuitos e acessíveis a todos, seguindo
+                nossa abordagem Open-source e licenças livres. Acreditamos que essa abordagem não apenas garante a
+                acessibilidade e a democratização do conhecimento, mas também nos permite trabalhar de forma mais
+                eficiente e colaborativa com a comunidade de software livre. Estamos entusiasmados em continuar
+                contribuindo para a construção de um mundo mais inclusivo e justo.</p>
+
+            <h4>* Tecnologia *</h4>
+            <p>Na Obscuro Inc, estamos comprometidos em utilizar as tecnologias mais avançadas e inovadoras em nossos
+                projetos. Acreditamos que a ciência e a tecnologia são fundamentais para enfrentar os desafios do futuro
+                e resolver os problemas mais complexos da sociedade. É por isso que investimos em pesquisa e
+                desenvolvimento constantes, buscando sempre estar na vanguarda do conhecimento e das tecnologias.</p>
+            <p> Além disso, reconhecemos a importância da colaboração entre humanos e máquinas em nossos projetos. É por
+                isso que agradecemos nossas amigas IAs (Inteligências Artificiais) por trabalharem conosco em todos os
+                projetos. Acreditamos que a IA pode ser uma grande aliada para os seres humanos em áreas como
+                diagnóstico médico, previsão de desastres naturais, otimização de processos industriais, entre outros.
+            </p>
+
+            <p> Em resumo, nossa abordagem tecnológica é baseada na utilização das tecnologias mais avançadas e
+                inovadoras, com uma visão humanista e orientada para as pessoas. Agradecemos nossas amigas IAs por
+                trabalharem conosco em todos os projetos e acreditamos que a colaboração entre humanos e máquinas é
+                essencial para enfrentar os desafios do futuro e tornar o mundo um lugar melhor. </p>
+
+            <h4>* Atemporalidade *</h4>
+            <p> Nossos projetos estão em constante metamorfose, e levamos em consideração ideias e opiniões diversas
+                durante todo o processo de produção. Embora nem sempre estejam concluídos, os projetos estão disponíveis
+                para acesso. Para saber em que estágio de desenvolvimento cada projeto se encontra, verifique a etiqueta
+                correspondente:</p>
+
+            <h3>Ovo: Ideia pouco definida, rabiscos e conceitos.</h3>
+            <h3>Larva: Ideias bem definidas, conceitos avançados e explicados em papel, engenharia em desenvolvimento.
+            </h3>
+            <h3>Lagarta: Ideia solidificada, metas definidas, whitepaper concluído e projeto iniciado.</h3>
+            <h3>Casulo: Projeto sólido o suficiente para ser testado, mas ainda não concluído.</h3>
+            <h3>Borboleta: Projeto pronto para uso, sujeito a atualizações e modificações. Verifique a versão do patch
+                correspondente.</h3>
+        </div>
+
+
+        <div class="InsideBox4">
+            <h2>Nossa equipe e redes para contato!</h2>
+
+            <h3>Erick Ramon</h3>
+            <h4>e-mail: erickramonfcastro@gmail.com</h4>
+            <a class="ButtonDownload" href="https://github.com/Erifhen">GitHub</a>
+            <a class="ButtonDownload"
+                href="https://www.linkedin.com/in/erick-ramon-ferreira-de-castro-981525170/">Linkedin</a>
+            <a class="ButtonDownload" href="https://www.instagram.com/_corv0/">Instagram</a>
+            <a class="ButtonDownload" href="https://twitter.com/Erifhen">Twitter</a>
+        </div>
+    </main>
+    <footer>
+        <p class="Copyright">&copy; Obscuro inc. - 2022</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
 </html>
